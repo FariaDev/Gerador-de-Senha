@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face{
+  font-family: crackedcode;
+  src: url("../assets/Cracked\ Code.ttf");
+}
 *{
   margin: 0 auto;
   width: 100%;
@@ -6,13 +11,20 @@
 }
 
 body{
-  background-color: #18181B;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.bg {
+  background-image: url('../assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 ::selection{
@@ -25,7 +37,7 @@ body{
 .logo{
   max-width: 600px;
   margin-bottom: 24px;
-}
+} 
 
 .container-input{
   max-width: 480px;
@@ -120,8 +132,11 @@ body{
 }
 
 .github{
+  font-family: 'Poppins';
+  font-size: clamp(10px, 6vw, 24px);
   position: absolute;
-  bottom: 30px;
-  width: 16%;
+  bottom: 50px;
+  width: 300px;
+  max-width: 600px;
   color: #DFDFDF;
 }
