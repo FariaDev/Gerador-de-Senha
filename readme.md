@@ -1,7 +1,7 @@
 Gerador de senhas, basta selecionar o tamanho da sua senha, copiá-la e pronto!
 
 Site feito com o auxílio do canal Sujeito Programador. Algumas alterações foram feitas.
-
-![printPc](https://user-images.githubusercontent.com/97044017/194886929-749aa3d0-69b1-4365-a242-b3a5839a8529.png)
-![printMobile](https://user-images.githubusercontent.com/97044017/194887641-fdfc799a-3413-4b52-807e-061ceddd5c2b.jpg)
-![printIpad](https://user-images.githubusercontent.com/97044017/194887556-be0dea2b-212d-4dc6-b726-02605bbe4a53.png)
+ 
+![PrintPc](https://user-images.githubusercontent.com/97044017/195204089-56b67487-0f60-44c3-aaa6-9ab6b32ad9da.PNG)
+![printMobile](https://user-images.githubusercontent.com/97044017/195203802-2a32d8ce-42ea-4a74-b45b-f8d0714f582a.jpg)
+![printIpad](https://user-images.githubusercontent.com/97044017/195204377-c4c9943e-f91f-46cf-9148-dbab0afd3f4b.png)
