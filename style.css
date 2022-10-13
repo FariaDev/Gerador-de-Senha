@@ -23,6 +23,16 @@ body{
   min-height: 100vh;
 }
 
+.titulo{
+  position: relative;
+  font-family: doctorglitch, sans-serif;
+  font-size: max(30px, 2.6vw);
+  white-space: nowrap;
+  height: 10%;
+  text-align: center;
+  color: #FFF;
+}
+
 .bg {
   background-image: url('./assets/background.jpg');
   background-repeat: no-repeat;
@@ -34,16 +44,6 @@ body{
 ::selection{
   background-color: #FFF;
   color: #000;
-}
-
-.titulo{
-  position: absolute;
-  font-family: doctorglitch, sans-serif;
-  font-size: max(36px, 2.6vw);
-  white-space: nowrap;
-  height: 35%;
-  text-align: center;
-  color: #FFF;
 }
 
 .container-input{
