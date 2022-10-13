@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face{
-  font-family: crackedcode;
-  src: url("../assets/Cracked\ Code.ttf");
-}
-@font-face{
-  font-family: code;
-  src: url("assets/CODE\ Bold.otf");
+  font-family: doctorglitch;
+  src: url("assets/Doctor\ Glitch.otf");
 }
 
 *{
@@ -40,10 +36,15 @@ body{
   color: #000;
 }
 
-.logo{
-  max-width: 600px;
-  margin-bottom: 24px;
-} 
+.titulo{
+  position: absolute;
+  font-family: doctorglitch, sans-serif;
+  font-size: max(36px, 2.6vw);
+  white-space: nowrap;
+  height: 35%;
+  text-align: center;
+  color: #FFF;
+}
 
 .container-input{
   max-width: 480px;
@@ -143,6 +144,6 @@ body{
   height: 100px;
   text-align: center;
   font-family: 'Poppins';
-  font-size: clamp(10px, 6vw, 24px);
+  font-size: max(25px, 1.3vw); /* max: pega o maior valor entre os dois */
   color: #DFDFDF;
 }
