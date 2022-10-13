@@ -30,6 +30,7 @@ body{
   white-space: nowrap;
   height: 10%;
   text-align: center;
+  text-shadow: 3px 3px 3px #000;
   color: #FFF;
 }
 
@@ -68,16 +69,48 @@ body{
   opacity: 0.7;
 }
 
-.button-cta{
+.button-cta {
   height: 40px;
   margin-top: 40px;
-  background-color: #3EB72B;
   border:0;
-  border-radius: 4px;
+  background-color: #3EB72B;
   color: #FFF;
+  border-radius: 4px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  position: relative;
+}
+
+.button-cta:after,
+.button-cta:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform .3s ease-in-out;
+}
+
+.button-cta:before {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  transform: scaleY(0);
+}
+
+.button-cta:after {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: scaleX(0);
+}
+
+.button-cta:hover:before {
+  transform: scaleY(1);
+}
+
+.button-cta:hover:after {
+  transform: scaleX(1);
 }
 
 .container-password{
