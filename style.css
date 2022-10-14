@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@font-face{
+@font-face {
   font-family: doctorglitch;
   src: url("assets/Doctor\ Glitch.otf");
 }
 
-*{
+* {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-body{
+body {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -23,14 +23,11 @@ body{
   min-height: 100vh;
 }
 
-.titulo{
-  position: relative;
+.titulo {
   font-family: doctorglitch, sans-serif;
   font-size: max(30px, 2.6vw);
-  white-space: nowrap;
   height: 10%;
   text-align: center;
-  text-shadow: 3px 3px 3px #000;
   color: #FFF;
 }
 
@@ -57,12 +54,12 @@ body{
     }
   }
 
-::selection{
+::selection {
   background-color: #FFF;
   color: #000;
 }
 
-.container-input{
+.container-input {
   max-width: 480px;
   margin: 14px 0;
 }
@@ -111,12 +108,14 @@ body{
 .button-cta:before {
   border-left: 2px solid black;
   border-right: 2px solid black;
+  border-radius: 4px;
   transform: scaleY(0);
 }
 
 .button-cta:after {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  border-radius: 4px;
   transform: scaleX(0);
 }
 
@@ -128,7 +127,7 @@ body{
   transform: scaleX(1);
 }
 
-.container-password{
+.container-password {
   max-width: 480px;
   margin: 14px 0;
   display: flex;
@@ -137,7 +136,7 @@ body{
   cursor: pointer;
 }
 
-.title{
+.title {
   text-align: center;
   color: #FFF;
   font-size: 28px;
@@ -145,7 +144,7 @@ body{
   margin-bottom: 8px;
 } 
 
-.password{
+.password {
   height: 60px;
   background-color: rgba(0,0,0,0.40);
   border: 1px solid #313131;
@@ -157,16 +156,16 @@ body{
   border-radius: 4px;
   transition: transform 0.5s;
 }
-.password:hover{
+.password:hover {
   transform: scale(1.05);
   border-color: #FFF;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-.tooltip{
+.tooltip {
   color: #FFF;
   position: relative;
   top: 20px;
@@ -180,13 +179,13 @@ body{
   text-align: center;
 }
 
-.container-password:hover .tooltip{
+.container-password:hover .tooltip {
   bottom: 50px;
   visibility: visible;
   opacity: 1;
 }
 
-.github{
+.github {
   position: absolute;
   bottom: 0;
   height: 100px;
